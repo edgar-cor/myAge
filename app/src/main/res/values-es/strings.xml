@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="you_age">Tu edad</string>
+    <string name="type_age">¿Cual es tu edad?</string>
+    <string name="type_string">Inserte alguna edad</string>
+    <string name="result_string">tu edad canina es %d años</string>
+</resources>

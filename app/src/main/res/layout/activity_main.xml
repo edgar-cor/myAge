@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:src="@drawable/dog"
+      android:adjustViewBounds="true"
+      />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_age"
+        android:padding="16dp"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/you_age"
+        android:id="@+id/age_edit"
+        android:inputType="number"
+        />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:text="Tu edad perruna es de 120 años"
+      android:padding="16dp"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:id="@+id/result_id"
+      />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/bottom"
+        />
+
+</LinearLayout>
